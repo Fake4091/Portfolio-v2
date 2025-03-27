@@ -1,0 +1,84 @@
+{% extends "base.html" %}{% block title %}Projects{% endblock %}
+<!-- -->
+{% load static %} {% block content %}
+<div class="top jumbotron text-center">
+  <h1>Projects</h1>
+  <h4><i>All Available On GitHub</i></h4>
+</div>
+<div class="container-fluid d-flex top cards-container">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">The Empty Tavern</h2>
+      <p class="card-title">Django</p>
+      <img class="card-img" src="{% static "Empty_Tavern.png" %}" />
+      <p class="card-text">
+        This was a much larger project (and solo at that!) that I actually
+        wanted to expand further on after I was "done". It is an app to help
+        players of the TTRPG Dungeons and Dragons, as well as its offshoots like
+        Pathfinders, find groups to play the game with and vice versa.
+      </p>
+      <a href="https://www.youtube.com/watch?v=eHUO6f9Gb9Y" target="_blank">
+        <button class="btn btn-primary">See A Demo</button>
+      </a>
+      <a href="https://github.com/Fake4091/The-Empty-Tavern" target="_blank">
+        <button class="btn btn-primary">See The Code</button>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">AirTrack API</h2>
+      <p class="card-title">Spring Boot</p>
+      <img class="card-img" src="{% static "airtrack.png" %}" />
+      <p class="card-text">
+        This is the last Unit Project we had in Base Camp. It was a small api
+        for keeping track of planes, their passengers, and the airports they are
+        in. It was meant to also disallow landing of planes for a short grace
+        period, but that was not implemented because there was not enough time.
+      </p>
+      <a href="https://www.youtube.com/watch?v=DNyWwMfaqM4" target="_blank">
+        <button class="btn btn-primary">See A Demo</button>
+      </a>
+      <a href="https://github.com/Fake4091/The-Empty-Tavern" target="_blank">
+        <button class="btn btn-primary">See The Code</button>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">GlobeTalk (Unfinished)</h2>
+      <p class="card-title">Django</p>
+      <img class="card-img" src="{% static "globetalk.png" %}" />
+      <p class="card-text">
+        This was a chat app that was specifically targeting tourists to find or
+        chat about things in different cities. Its styling wasn't quite finished
+        by the deadline, but all of the mechanics worked, just not all in UI.
+      </p>
+      <a href="https://www.youtube.com/watch?v=rGayzAARV8c" target="_blank">
+        <button class="btn btn-primary">Watch a Demo</button>
+      </a>
+      <a href="https://github.com/Fake4091/Travel-Chat-App" target="_blank">
+        <button class="btn btn-primary">See The Code</button>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Pysidian</h2>
+      <p class="card-title">Python</p>
+      <img class="card-img" src="{% static "Pysidian.png" %}" />
+      <p class="card-text">
+        This was a chat app that was specifically targeting tourists to find or
+        chat about things in different cities. Its styling wasn't quite finished
+        by the deadline, but all of the mechanics worked, just not all in UI.
+      </p>
+      <a href="https://youtu.be/h8bc0QF5mZQ" target="_blank">
+        <button class="btn btn-primary">Watch a Demo</button>
+      </a>
+      <a href="https://github.com/Fake4091/pysidian" target="_blank">
+        <button class="btn btn-primary">See The Code</button>
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}

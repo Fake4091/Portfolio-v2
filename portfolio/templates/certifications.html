@@ -1,0 +1,32 @@
+{% extends "base.html" %}{% block title %}Projects{% endblock %}
+<!-- -->
+{% load static %} {% block content %}
+<div class="top jumbotron text-center">
+  <h1>Certifications</h1>
+  <h4><i>With More to Come</i></h4>
+</div>
+<div class="container-fluid d-flex top cards-container">
+  <div class="card">
+    <img class="card-img-top" src="{% static 'FundamentalsProcert.png' %}" />
+    <div class="card-body">
+      <h2 class="card-title">IT Fundamentals Pro</h2>
+      <p class="card-title">Testout</p>
+      <p class="card-text">
+        A certification that covers all the basics. I got it through Testout,
+        but it's based off of the CompTIA cert of the same name.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static 'NetworkingProcert.png' %}" />
+    <div class="card-body">
+      <h2 class="card-title">Networking Pro</h2>
+      <p class="card-title">Testout</p>
+      <p class="card-text">
+        A certification all about networking. I also got this one through
+        Testout, so it's also based off of the CompTIA cert of the same name.
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
