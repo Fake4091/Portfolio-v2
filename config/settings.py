@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "localhost",
     "192.168.1.100:8000",
-    "protfolio.fake4091.com",
+    "portfolio.fake4091.com",
 ]
 
 
